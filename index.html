@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Test</title>
+    </head>
+
+    <body>
+        <h1>Statistique sur les notes</h1>
+        
+        <h2>Dépot des notes</h2>
+        <div id="depot">Déposez le fichiers avec les notes ici (au format .csv)</div>
+
+        <output id="noms_fichiers"></output>
+
+        <h2>Les notes</h2>
+        <div id="notes">
+            <table id="tableNotes"></table>
+        </div>
+
+        <h2>Les statistiques</h2>
+        <div id="stats"></div>
+
+        <h2>Graphique</h2>
+        <div id="plot">
+            <canvas id="graph" width="400" height="300"></canvas>
+        </div>
+
+    </body>
+
+    <script src="statsFunctions.js"></script>
+    <script src="pageFunctions.js"></script>
+    <script src="main.js"></script>
+
+</html>

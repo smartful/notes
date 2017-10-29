@@ -1,0 +1,18 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    text-align: right;
+    padding: 4px;
+}
+
+#depot {
+    border:2px #3333AA dashed;
+    background-color: #AAAAFF;
+    width: 400px;
+    height: 100px;
+    padding: 5px;
+}
